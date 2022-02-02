@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fecb70"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/screenshot_2022_01_31_002047" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="#94d2a5"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:hint="E-mail"/>
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="50dp"
+        android:background="#94d2a5"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:hint="Password"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:backgroundTint="#E3A63A"
+            android:layout_marginRight="15dp"/>
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:backgroundTint="#E3A63A"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonRecover"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E3A63A"
+        android:text="Recover password"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fecb70"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".optionActivities.ImageActivity">
+
+    <EditText
+        android:id="@+id/inputUrl"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="50dp"
+        android:background="#94d2a5"
+        android:hint="Image URL"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/changeButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#E3A63A"
+        android:text="Change" />
+
+</LinearLayout>
